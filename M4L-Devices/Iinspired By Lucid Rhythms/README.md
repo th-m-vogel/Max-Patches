@@ -4,7 +4,7 @@ Something polyrhythmic, semi generative - ish ... sequencing ... You have 16 (or
 
 The 16 tracks running with increasing phase shift, playing notes inceasing from left (1st stage) to right. The notes ar played acording to selected root and scale.
 
-the bass hit is repeated after a defined number of cycles. The bass play always at root note two octaves below the 1st stage.
+the bass hit is repeated after a defined number of cycles. The bass play always at root note two octaves below the 1st stage, what is the root note selected. You may want to use an instrument rack to route the bass to a different instrument than the main sequence.
 
 The device linked to Ableton Transport. Transport off stops the device fcrom running.
 
