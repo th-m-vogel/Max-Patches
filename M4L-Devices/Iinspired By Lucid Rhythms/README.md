@@ -2,13 +2,17 @@
 
 Something polyrhythmic, semi generative - ish ... sequencing ... You have 16 (or less) running on different phase and phase shift to create notes from a defined scale.
 
+The 16 tracks running with increasing phase shift, playing notes inceasing from left (1st stage) to right. The notes ar played acording to selected root and scale.
+
+the bass hit is repeated after a defined number of cycles. The bass play always at root note two octaves below the 1st stage.
+
+The device linked to Ableton Transport. Transport off stops the device fcrom running.
+
 In fact, i wanted to do something in the direction of the YT-er Lucid Rythm and took this as a reason to dip in to Max ... So, my 1st M4L device.
 
 want to have a look at it running? - https://youtu.be/H_1-QaDhjWg
 
 ## UI Description
-
-The device linked to Ableton Transport. Transport off stops the device fcrom running.
 
 - On/Off switch: You can Start/Stop the device. When ON the Phase setings are locked.
 - Sine / Rectified: changes Waveform for the oscilation from Sine to Full-Rectified-Sine. Will Result in different pattens, especialy over longer running time.
