@@ -1112,7 +1112,7 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 1.0, 0.34902, 0.372549, 1.0 ],
+					"color" : [ 1.0, 0.349019607843137, 0.372549019607843, 1.0 ],
 					"id" : "obj-119",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1138,7 +1138,7 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 1.0, 0.34902, 0.372549, 1.0 ],
+					"color" : [ 1.0, 0.349019607843137, 0.372549019607843, 1.0 ],
 					"id" : "obj-118",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -3470,7 +3470,7 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 1.0, 0.34902, 0.372549, 1.0 ],
+					"color" : [ 1.0, 0.349019607843137, 0.372549019607843, 1.0 ],
 					"id" : "obj-318",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -3639,7 +3639,7 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-					"bordercolor" : [ 0.039216, 0.039216, 0.039216, 1.0 ],
+					"bordercolor" : [ 0.05, 0.05, 0.05, 1.0 ],
 					"id" : "obj-55",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -3667,7 +3667,7 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-					"bordercolor" : [ 0.039216, 0.039216, 0.039216, 1.0 ],
+					"bordercolor" : [ 0.05, 0.05, 0.05, 1.0 ],
 					"id" : "obj-59",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -3729,7 +3729,7 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-					"bordercolor" : [ 0.039216, 0.039216, 0.039216, 1.0 ],
+					"bordercolor" : [ 0.05, 0.05, 0.05, 1.0 ],
 					"id" : "obj-57",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -4702,14 +4702,14 @@
 				"multi" : 0
 			}
  ],
-		"bgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"saved_attribute_attributes" : 		{
 			"editing_bgcolor" : 			{
 				"expression" : "themecolor.theme_editing_bgcolor"
 			}
 ,
 			"locked_bgcolor" : 			{
-				"expression" : "themecolor.live_control_text_bg"
+				"expression" : "themecolor.live_surface_bg"
 			}
 
 		}
