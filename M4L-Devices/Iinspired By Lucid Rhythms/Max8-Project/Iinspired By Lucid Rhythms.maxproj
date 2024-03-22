@@ -2,8 +2,8 @@
 	"name" : "Iinspired By Lucid Rhythms Project",
 	"version" : 1,
 	"creationdate" : 3793906723,
-	"modificationdate" : 3793909906,
-	"viewrect" : [ 1057.0, 186.0, 300.0, 500.0 ],
+	"modificationdate" : 3793991798,
+	"viewrect" : [ 315.0, 238.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -29,17 +29,17 @@
 		}
 ,
 		"data" : 		{
-			"LengthValues.txt" : 			{
-				"kind" : "textfile",
-				"local" : 1
-			}
-,
 			"PitchModes.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
 ,
 			"PitchModesLengths.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"LengthValues.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
@@ -56,7 +56,7 @@
 
 	}
 ,
-	"detailsvisible" : 1,
+	"detailsvisible" : 0,
 	"amxdtype" : 1835887981,
 	"readonly" : 0,
 	"devpathtype" : 0,
