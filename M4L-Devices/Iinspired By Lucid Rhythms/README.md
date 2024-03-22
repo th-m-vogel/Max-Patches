@@ -27,6 +27,7 @@ want to have a look at it running? - https://youtu.be/H_1-QaDhjWg
 - Reset: resets stages
 - Bass Trigger Button: shows bass Trigger, can trigger bass manually
 - Bass Trigger Loops: after how many cycles the bass will trigger
+- Sequencer and Bass Box: Set Velocity and Note Lengt as desired
 
 - The Multislider Box: Visualizes the state of the changes. ToDo - make this an  workin input device for the initial state. 
 
@@ -35,7 +36,7 @@ want to have a look at it running? - https://youtu.be/H_1-QaDhjWg
 - Matrix: Visualisation of the scale to use. You can change this.
 - Octave Offset: in waht octave is the lowest note (leftmost cycle) played
 
--Note Visualisatio: well, kust what is is ...
+- Visualisatio: well, just what is is ...
 
 ## ToDo
 
