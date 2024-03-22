@@ -1,0 +1,3 @@
+Improve Reset
+Internal change - messaging optimisation
+Add Chord / Appegiator mode per step
