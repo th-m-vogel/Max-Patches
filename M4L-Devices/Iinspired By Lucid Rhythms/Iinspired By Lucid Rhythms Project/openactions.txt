@@ -1,3 +1,5 @@
 Improve Reset
 Internal change - messaging optimisation
+Add "Hint" and "Info View! to all UI elements
 Add Chord / Appegiator mode per step
+
