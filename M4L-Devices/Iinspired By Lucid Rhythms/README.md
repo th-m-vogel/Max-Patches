@@ -14,6 +14,8 @@ want to have a look at it running? - https://youtu.be/H_1-QaDhjWg
 
 ## UI Description
 
+![plot](./Device-Screenshot.png)
+
 - On/Off switch: You can Start/Stop the device. When ON the Phase setings are locked.
 - Sine / Rectified: changes Waveform for the oscilation from Sine to Full-Rectified-Sine. Will Result in different pattens, especialy over longer running time.
 - Loop Length:cycle time per stage. When set to "free" the Loop Time dial "Loop (s)" gets unlocked
