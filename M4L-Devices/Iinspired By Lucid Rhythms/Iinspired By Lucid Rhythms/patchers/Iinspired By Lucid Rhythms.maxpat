@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 130.0, 87.0, 1908.0, 1106.0 ],
+		"rect" : [ 505.0, 96.0, 1908.0, 1106.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 169.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -1112,7 +1112,7 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 1.0, 0.349019607843137, 0.372549019607843, 1.0 ],
+					"color" : [ 1.0, 0.34902, 0.372549, 1.0 ],
 					"id" : "obj-119",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1138,7 +1138,7 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 1.0, 0.349019607843137, 0.372549019607843, 1.0 ],
+					"color" : [ 1.0, 0.34902, 0.372549, 1.0 ],
 					"id" : "obj-118",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1616,7 +1616,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1921.0, 471.0, 1306.0, 879.0 ],
+						"rect" : [ 1992.0, 410.0, 1306.0, 879.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3470,7 +3470,7 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 1.0, 0.349019607843137, 0.372549019607843, 1.0 ],
+					"color" : [ 1.0, 0.34902, 0.372549, 1.0 ],
 					"id" : "obj-318",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -3639,7 +3639,7 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-					"bordercolor" : [ 0.05, 0.05, 0.05, 1.0 ],
+					"bordercolor" : [ 0.039216, 0.039216, 0.039216, 1.0 ],
 					"id" : "obj-55",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -3667,7 +3667,7 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-					"bordercolor" : [ 0.05, 0.05, 0.05, 1.0 ],
+					"bordercolor" : [ 0.039216, 0.039216, 0.039216, 1.0 ],
 					"id" : "obj-59",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -3729,7 +3729,7 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-					"bordercolor" : [ 0.05, 0.05, 0.05, 1.0 ],
+					"bordercolor" : [ 0.039216, 0.039216, 0.039216, 1.0 ],
 					"id" : "obj-57",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -4550,35 +4550,35 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "LengthValues.txt",
-				"bootpath" : "~/OneDrive/Dokumente/GitHub/Max-Patches/M4L-Devices/Iinspired By Lucid Rhythms/Iinspired By Lucid Rhythms Project/data",
+				"bootpath" : "~/OneDrive/Dokumente/GitHub/Max-Patches/M4L-Devices/Iinspired By Lucid Rhythms/Iinspired By Lucid Rhythms/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "NoteGenerator.maxpat",
-				"bootpath" : "~/OneDrive/Dokumente/GitHub/Max-Patches/M4L-Devices/Iinspired By Lucid Rhythms/Iinspired By Lucid Rhythms Project/patchers",
+				"bootpath" : "~/OneDrive/Dokumente/GitHub/Max-Patches/M4L-Devices/Iinspired By Lucid Rhythms/Iinspired By Lucid Rhythms/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PitchModes.txt",
-				"bootpath" : "~/OneDrive/Dokumente/GitHub/Max-Patches/M4L-Devices/Iinspired By Lucid Rhythms/Iinspired By Lucid Rhythms Project/data",
+				"bootpath" : "~/OneDrive/Dokumente/GitHub/Max-Patches/M4L-Devices/Iinspired By Lucid Rhythms/Iinspired By Lucid Rhythms/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PitchModesLengths.txt",
-				"bootpath" : "~/OneDrive/Dokumente/GitHub/Max-Patches/M4L-Devices/Iinspired By Lucid Rhythms/Iinspired By Lucid Rhythms Project/data",
+				"bootpath" : "~/OneDrive/Dokumente/GitHub/Max-Patches/M4L-Devices/Iinspired By Lucid Rhythms/Iinspired By Lucid Rhythms/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "phase_gen.maxpat",
-				"bootpath" : "~/OneDrive/Dokumente/GitHub/Max-Patches/M4L-Devices/Iinspired By Lucid Rhythms/Iinspired By Lucid Rhythms Project/patchers",
+				"bootpath" : "~/OneDrive/Dokumente/GitHub/Max-Patches/M4L-Devices/Iinspired By Lucid Rhythms/Iinspired By Lucid Rhythms/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
