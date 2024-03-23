@@ -945,7 +945,7 @@
 
 					}
 ,
-					"text" : "r Tstatus"
+					"text" : "r ---Tstatus"
 				}
 
 			}
@@ -1054,7 +1054,7 @@
 
 					}
 ,
-					"text" : "s Tbeats"
+					"text" : "s ---Tbeats"
 				}
 
 			}
@@ -1080,7 +1080,7 @@
 
 					}
 ,
-					"text" : "s Tbars"
+					"text" : "s ---Tbars"
 				}
 
 			}
@@ -1106,7 +1106,7 @@
 
 					}
 ,
-					"text" : "s Tstatus"
+					"text" : "s ---Tstatus"
 				}
 
 			}
@@ -1132,7 +1132,7 @@
 
 					}
 ,
-					"text" : "s Tsig"
+					"text" : "s ---Tsig"
 				}
 
 			}
@@ -1158,7 +1158,7 @@
 
 					}
 ,
-					"text" : "S Tbpm"
+					"text" : "S ---Tbpm"
 				}
 
 			}
@@ -1185,7 +1185,7 @@
 
 					}
 ,
-					"text" : "r Tbpm"
+					"text" : "r ---Tbpm"
 				}
 
 			}
@@ -1212,7 +1212,7 @@
 
 					}
 ,
-					"text" : "r Tsig"
+					"text" : "r ---Tsig"
 				}
 
 			}
@@ -1976,7 +1976,7 @@
 
 									}
 ,
-									"text" : "r Tbang"
+									"text" : "r ---Tbang"
 								}
 
 							}
@@ -3490,7 +3490,7 @@
 
 					}
 ,
-					"text" : "s Tbang"
+					"text" : "s ---Tbang"
 				}
 
 			}
