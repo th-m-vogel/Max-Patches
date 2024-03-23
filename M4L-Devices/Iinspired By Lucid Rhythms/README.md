@@ -12,6 +12,9 @@ In fact, i wanted to do something in the direction of the YT-er Lucid Rythm and 
 
 want to have a look at it running? - https://youtu.be/H_1-QaDhjWg
 
+M4L Device is also available at Maxforlife.com - https://maxforlive.com/profile/user/Sevetamryn - however, updates here may be more frequently. Also, the project folder my update more often than the M4L device.
+
+
 ## UI Description
 
 ![plot](./Device-Screenshot.png)
@@ -40,9 +43,13 @@ want to have a look at it running? - https://youtu.be/H_1-QaDhjWg
 
 ## ToDo
 
-Fix identified quirks, find more and fix, Improve, learn more about Max
+Fix identified quirks, find more and fix, Improve, learn more about Max.
+- enable multi instancig
+- rework internal message flow for more convinient expansion
+- at chord / appegiator mode persequencer step
+- add info text for all plugin conmtrols
 
 ## Remarks
 
-Use at your own risk ... 
+Enjoy ... make music ... Use at your own risk ... 
 
