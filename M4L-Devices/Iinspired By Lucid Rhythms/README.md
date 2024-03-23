@@ -17,7 +17,7 @@ M4L Device is also available at Maxforlife.com - https://maxforlive.com/profile/
 
 ## UI Description
 
-![plot](./Device-Screenshot.png)
+![Screenshot](./Device-Screenshot.png)
 
 - On/Off switch: You can Start/Stop the device. When ON the Phase setings are locked.
 - Sine / Rectified: changes Waveform for the oscilation from Sine to Full-Rectified-Sine. Will Result in different pattens, especialy over longer running time.
