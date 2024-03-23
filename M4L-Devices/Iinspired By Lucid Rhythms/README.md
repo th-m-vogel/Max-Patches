@@ -44,7 +44,7 @@ M4L Device is also available at Maxforlife.com - https://maxforlive.com/profile/
 # ToDo
 
 Fix identified quirks, find more and fix, Improve, learn more about Max.
-- enable multi instancig
+- ~~enable multi instancig~~
 - rework internal message flow for more convinient expansion
 - at chord / appegiator mode persequencer step
 - add info text for all plugin conmtrols
