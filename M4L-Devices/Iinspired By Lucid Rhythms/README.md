@@ -1,4 +1,4 @@
-## DESCRIPTION:
+# DESCRIPTION:
 
 Something polyrhythmic, semi generative - ish ... sequencing ... You have 16 (or less) running on different phase and phase shift to create notes from a defined scale.
 
@@ -15,7 +15,7 @@ want to have a look at it running? - https://youtu.be/H_1-QaDhjWg
 M4L Device is also available at Maxforlife.com - https://maxforlive.com/profile/user/Sevetamryn - however, updates here may be more frequently. Also, the project folder my update more often than the M4L device.
 
 
-## UI Description
+# UI Description
 
 ![Screenshot](./Device-Screenshot.png)
 
@@ -41,7 +41,7 @@ M4L Device is also available at Maxforlife.com - https://maxforlive.com/profile/
 
 - Visualisatio: well, just what is is ...
 
-## ToDo
+# ToDo
 
 Fix identified quirks, find more and fix, Improve, learn more about Max.
 - enable multi instancig
@@ -49,7 +49,7 @@ Fix identified quirks, find more and fix, Improve, learn more about Max.
 - at chord / appegiator mode persequencer step
 - add info text for all plugin conmtrols
 
-## Remarks
+# Remarks
 
 Enjoy ... make music ... Use at your own risk ... 
 

@@ -1,4 +1,4 @@
-## DESCRIPTION:
+# DESCRIPTION:
 
 This is a collection of several, may be usefull, MAX patches and Max for Life (M4L) devices i created.
 
@@ -9,7 +9,7 @@ This is a collection of several, may be usefull, MAX patches and Max for Life (M
 ![Screenshot](<./M4L-Devices/Iinspired By Lucid Rhythms/Device-Screenshot.png>)
 
 
-## Remarks
+# Remarks
 
 Enjoy ... make music ... Use at your own risk ... 
 
