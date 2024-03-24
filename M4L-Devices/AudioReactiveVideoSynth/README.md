@@ -2,7 +2,7 @@
 
 AudioReactiveVideoSynth was originally created by supertramp162 and published on maxforlife.com.
 
-Link to supertramp152
+Link to supertramp162
 - MaxforLive: https://maxforlive.com/profile/user/Supertramp162
 - YouTube: https://www.youtube.com/@Supertramp162
 
