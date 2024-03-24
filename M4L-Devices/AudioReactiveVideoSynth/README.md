@@ -10,6 +10,8 @@ Link to supertramp152
 
 De facto original. For now I just added a vizzy av-recorder.
 
+![Screenshot](./Device-Screenshot.png)
+
 # NEXT STEPS
 
 Userstand what was done and use it to develop furter from here ... we will see.
