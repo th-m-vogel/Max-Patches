@@ -4,9 +4,9 @@ This is a collection of several, may be usefull, MAX patches and Max for Life (M
 
 # Devices
 
-## [title]Iinspired By Lucid Rhythms(<./M4L-Devices/Iinspired By Lucid Rhythms/>)
+## [Iinspired By Lucid Rhythms](<./M4L-Devices/Iinspired By Lucid Rhythms/>)
 
-Something polyrhythmic, semi generative - ish ... sequencing ...
+Something polyrhythmic, semi generative - ish ... sequencing ... 
 
 ![Screenshot](<./M4L-Devices/Iinspired By Lucid Rhythms/Device-Screenshot.png>)
 
