@@ -2,8 +2,9 @@
 
 AudioReactiveVideoSynth was originally created by supertramp162 and published on maxforlife.com.
 
-Link tosupertramp152 - https://linktr.ee/supertramp162
-Original M4L device - https://maxforlive.com/library/device/9431/audioreactivevideosynth-v1
+Link to supertramp152
+- MaxforLive: https://maxforlive.com/profile/user/Supertramp162
+- YouTube: https://www.youtube.com/@Supertramp162
 
 # ACTUAL STATE
 
