@@ -10,7 +10,7 @@ Something polyrhythmic, semi generative - ish ... sequencing ...
 
 ![Screenshot](<./M4L-Devices/Iinspired By Lucid Rhythms/Device-Screenshot.png>)
 
-## AudioReactiveVideoSynth
+## [AudioReactiveVideoSynth](./M4L-Devices/AudioReactiveVideoSynth/)
 
 AudioReactiveVideoSynth was originally created by supertramp162 and published on maxforlife.com. Lets see where i can go from here
 
