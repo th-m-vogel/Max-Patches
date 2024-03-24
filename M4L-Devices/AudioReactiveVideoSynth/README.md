@@ -14,7 +14,7 @@ De facto original. For now I just added a vizzy av-recorder.
 
 # NEXT STEPS
 
-Userstand what was done and use it to develop furter from here ... we will see.
+Understand what was done and use it to develop furter from here ... we will see.
 
 # Remarks
 
