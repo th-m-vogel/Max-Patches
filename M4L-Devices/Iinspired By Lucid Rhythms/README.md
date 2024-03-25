@@ -14,6 +14,9 @@ want to have a look at it running? - https://youtu.be/H_1-QaDhjWg
 
 M4L Device is also available at Maxforlife.com - https://maxforlive.com/profile/user/Sevetamryn - however, updates here may be more frequently. Also, the project folder my update more often than the M4L device.
 
+# Download M4L device
+
+[Iinspired By Lucid Rhythms](<./M4L-Devices/Iinspired By Lucid Rhythms/Iinspired By Lucid Rhythms.amxd>)
 
 # UI Description
 
