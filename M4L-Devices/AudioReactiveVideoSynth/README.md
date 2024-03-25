@@ -8,7 +8,7 @@ Link to supertramp162
 
 # Download M4L device
 
-[AudioReactiveVideoSynth](./AudioReactiveVideoSynth.amxd "Download")
+[AudioReactiveVideoSynth](https://github.com/th-m-vogel/Max-Patches/raw/main/M4L-Devices/AudioReactiveVideoSynth/AudioReactiveVideoSynth.amxd "Download")
 
 https://github.com/th-m-vogel/Max-Patches/blob/main/M4L-Devices/AudioReactiveVideoSynth/AudioReactiveVideoSynth.amxd
 
