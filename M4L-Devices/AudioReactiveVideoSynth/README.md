@@ -10,8 +10,6 @@ Link to supertramp162
 
 [AudioReactiveVideoSynth](https://github.com/th-m-vogel/Max-Patches/raw/main/M4L-Devices/AudioReactiveVideoSynth/AudioReactiveVideoSynth.amxd "Download")
 
-https://github.com/th-m-vogel/Max-Patches/blob/main/M4L-Devices/AudioReactiveVideoSynth/AudioReactiveVideoSynth.amxd
-
 # ACTUAL STATE
 
 De facto original. For now I just added a vizzy av-recorder.

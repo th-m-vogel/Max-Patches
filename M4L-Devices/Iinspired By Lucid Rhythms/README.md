@@ -16,7 +16,7 @@ M4L Device is also available at Maxforlife.com - https://maxforlive.com/profile/
 
 # Download M4L device
 
-[Iinspired By Lucid Rhythms](<./M4L-Devices/Iinspired By Lucid Rhythms/Iinspired By Lucid Rhythms.amxd>)
+[Iinspired By Lucid Rhythms](<https://github.com/th-m-vogel/Max-Patches/raw/main/M4L-Devices/Iinspired By Lucid Rhythms/Iinspired By Lucid Rhythms.amxd> "Download")
 
 # UI Description
 

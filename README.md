@@ -8,7 +8,7 @@ This is a collection of several, may be usefull, MAX patches and Max for Life (M
 
 Something polyrhythmic, semi generative - ish ... sequencing ... 
 
-Latest Release M4L device downlod [Iinspired By Lucid Rhythms](<./M4L-Devices/Iinspired By Lucid Rhythms/Iinspired By Lucid Rhythms.amxd>)
+Latest Release M4L device downlod [Iinspired By Lucid Rhythms](<https://github.com/th-m-vogel/Max-Patches/raw/main/M4L-Devices/Iinspired By Lucid Rhythms/Iinspired By Lucid Rhythms.amxd> "Download")
 
 ![Screenshot](<./M4L-Devices/Iinspired By Lucid Rhythms/Device-Screenshot.png>)
 
@@ -16,7 +16,7 @@ Latest Release M4L device downlod [Iinspired By Lucid Rhythms](<./M4L-Devices/Ii
 
 AudioReactiveVideoSynth was originally created by supertramp162 and published on maxforlife.com. Lets see where i can go from here.
 
-Latest Release M4L device downlod [AudioReactiveVideoSynth](./M4L-Devices/AudioReactiveVideoSynth/AudioReactiveVideoSynth.amxd)
+Latest Release M4L device downlod [AudioReactiveVideoSynth](https://github.com/th-m-vogel/Max-Patches/raw/main/M4L-Devices/AudioReactiveVideoSynth/AudioReactiveVideoSynth.amxd "Download")
 
 ![Screenshot](<./M4L-Devices/AudioReactiveVideoSynth/Device-Screenshot.png>)
 
