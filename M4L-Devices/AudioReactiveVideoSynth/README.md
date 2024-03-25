@@ -16,6 +16,11 @@ De facto original. For now I just added a vizzy av-recorder.
 
 Understand what was done and use it to develop furter from here ... we will see.
 
+1st relaese: 
+- added direct recording function
+- some internal rework, got siome understanding of the internals
+- new UI
+
 # Remarks
 
 Enjoy ... make music ... Use at your own risk ... 
