@@ -18,7 +18,7 @@ Understand what was done and use it to develop furter from here ... we will see.
 
 1st relaese: 
 - added direct recording function
-- some internal rework, got siome understanding of the internals
+- some internal rework, got some understanding of the internals
 - new UI
 
 # Remarks
