@@ -6156,7 +6156,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+					"bgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
 					"id" : "obj-99",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -6168,7 +6168,7 @@
 					"proportion" : 0.39,
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{
-							"expression" : "themecolor.live_control_text_bg"
+							"expression" : "themecolor.live_assignment_text_bg"
 						}
 
 					}
@@ -6179,7 +6179,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+					"bgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
 					"id" : "obj-102",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -6191,7 +6191,7 @@
 					"proportion" : 0.39,
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{
-							"expression" : "themecolor.live_control_text_bg"
+							"expression" : "themecolor.live_assignment_text_bg"
 						}
 
 					}
