@@ -18,6 +18,8 @@ Link to supertramp162
 
 # ACTUAL STATE
 
+A track created with this device: https://youtu.be/GW951CoEjf4
+
 1st relaese: 
 - added direct recording function
 - some internal rework, got some understanding of the internal working
