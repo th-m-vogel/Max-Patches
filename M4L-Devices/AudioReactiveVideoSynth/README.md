@@ -1,3 +1,9 @@
+# WARNING
+
+Using this M4L device on Ableton Live 11 using the embedded Max8 Version (8.5.6) will probaly crash you Ableton. Also, the Skybox Feature will not work here.
+
+Upadte Max to use this device! This device was developed and tested using Ableton Live 11 and Max8 8.6.2.
+
 # DESCRIPTION:
 
 AudioReactiveVideoSynth was originally created by supertramp162 and published on maxforlife.com.
@@ -24,6 +30,7 @@ Understand what was done and use it to develop furter from here ... we will see.
 - added direct recording function
 - some internal rework, got some understanding of the internals
 - new UI
+- added a skybox
 
 # Remarks
 
