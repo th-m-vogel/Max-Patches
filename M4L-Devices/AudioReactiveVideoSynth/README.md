@@ -18,19 +18,19 @@ Link to supertramp162
 
 # ACTUAL STATE
 
-De facto original. For now I just added a vizzy av-recorder.
+1st relaese: 
+- added direct recording function
+- some internal rework, got some understanding of the internal working
+- new UI
+- added a skybox
 
 ![Screenshot](./Device-Screenshot.png)
 
 # NEXT STEPS
 
-Understand what was done and use it to develop furter from here ... we will see.
-
-1st relaese: 
-- added direct recording function
-- some internal rework, got some understanding of the internals
-- new UI
-- added a skybox
+~~- Understand what was done and use it to develop furter from here ... we will see.~~
+- improve on animation
+- improve on video effects
 
 # Remarks
 
