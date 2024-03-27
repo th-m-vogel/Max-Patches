@@ -2,7 +2,7 @@
 	"name" : "AudioReactiveVideoSynth",
 	"version" : 1,
 	"creationdate" : 3794080790,
-	"modificationdate" : 3794238309,
+	"modificationdate" : 3794416768,
 	"viewrect" : [ 540.0, 749.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -41,7 +41,11 @@
 
 		}
 ,
-		"code" : 		{
+		"data" : 		{
+			"Drawmodes.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
 
 		}
 ,
