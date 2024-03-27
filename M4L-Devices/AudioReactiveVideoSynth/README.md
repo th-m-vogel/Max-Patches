@@ -31,6 +31,7 @@ A track created with this device: https://youtu.be/GW951CoEjf4
 # NEXT STEPS
 
 ~~- Understand what was done and use it to develop furter from here ... we will see.~~
+~~- Use custome Cubemap by dropping file on Plugin~~
 - improve on animation
 - improve on video effects
 
