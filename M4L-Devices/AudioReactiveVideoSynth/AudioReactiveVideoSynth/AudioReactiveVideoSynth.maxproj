@@ -2,7 +2,7 @@
 	"name" : "AudioReactiveVideoSynth",
 	"version" : 1,
 	"creationdate" : 3794080790,
-	"modificationdate" : 3794416768,
+	"modificationdate" : 3794488506,
 	"viewrect" : [ 540.0, 749.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -24,16 +24,6 @@
 		}
 ,
 		"media" : 		{
-			"no_sun.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"no_sun_no_nebula.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
 			"space.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
