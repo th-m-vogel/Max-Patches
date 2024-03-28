@@ -48,7 +48,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 920.0, 865.0, 60.0, 20.0 ],
+					"patching_rect" : [ 920.0, 865.0, 63.0, 20.0 ],
 					"text" : "loadmess 0"
 				}
 
@@ -119,7 +119,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1296.0, 712.0, 259.0, 20.0 ],
+					"patching_rect" : [ 1296.0, 712.0, 280.0, 20.0 ],
 					"text" : "jit.gl.light nodyBlackatron-Audio-Reactor-Supertramp162"
 				}
 
@@ -250,7 +250,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_gl_texture", "", "" ],
-					"patching_rect" : [ 1062.5, 840.0, 617.0, 20.0 ],
+					"patching_rect" : [ 1062.5, 840.0, 655.0, 20.0 ],
 					"text" : "jit.gl.pass nodyBlackatron-Audio-Reactor-Supertramp162 @fxname bloom-hq @threshold 1.2 @gamma 0.8 @quality hi @bloom_amt 3.6"
 				}
 
@@ -308,7 +308,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 477.5, 1048.0, 60.0, 20.0 ],
+					"patching_rect" : [ 477.5, 1048.0, 63.0, 20.0 ],
 					"text" : "loadmess 0"
 				}
 
@@ -430,12 +430,12 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 632.0, 853.5, 46.000000000000114, 15.0 ],
+					"patching_rect" : [ 632.0, 853.5, 64.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 544.993470907211304, 38.405610382556915, 63.110439440528808, 15.0 ],
+					"presentation_rect" : [ 552.039216000000124, 38.252015590667725, 63.96078399999999, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "One", "Two", "Three", "Four", "Fife", "Six", "Seven", "Eight", "Nine" ],
+							"parameter_enum" : [ "Mode One", "Mode Two", "Mode Three", "Mode Four", "Mode Five", "Mode Six", "Mode Seven", "Mode Eight", "Mode Nine" ],
 							"parameter_initial" : [ 4 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Drawmode",
@@ -1442,7 +1442,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1248.0, 279.0, 72.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 544.339876115322113, 20.758551001548767, 63.96078399999999, 15.0 ],
+					"presentation_rect" : [ 552.066105008125305, 20.38567453622818, 63.96078399999999, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "None", "Space 1", "Space 2 ", "Space 3" ],
@@ -5143,7 +5143,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 505.0, 361.0, 109.0, 22.0 ],
-									"text" : "size 1080 720"
+									"text" : "size 1920 1080"
 								}
 
 							}
@@ -5891,6 +5891,7 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-6",
+									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -5903,6 +5904,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
+									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -5940,6 +5942,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-1",
+									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -7224,7 +7227,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 17.883597850799561, 971.936515808105469, 437.002016663551331, 31.0 ],
+					"patching_rect" : [ 17.883597850799561, 971.936515808105469, 447.002016663551331, 31.0 ],
 					"text" : "jit.gl.mesh nodyBlackatron-Audio-Reactor-Supertramp162 @poly_mode 1 1. @depth_enable 0 @blend_enable 1 @blend add @auto_normals 1 @point_mode circle_depth @antialias 1"
 				}
 
@@ -8195,7 +8198,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-100", 0 ],
-					"midpoints" : [ 445.385614514350891, 1011.0, 474.0, 1011.0, 474.0, 978.0, 553.415352344512939, 978.0 ],
+					"midpoints" : [ 455.385614514350891, 1011.0, 474.0, 1011.0, 474.0, 978.0, 553.415352344512939, 978.0 ],
 					"source" : [ "obj-66", 1 ]
 				}
 
@@ -8438,7 +8441,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-66", 3 ],
-					"midpoints" : [ 230.106612317611734, 810.0, 255.0, 810.0, 255.0, 905.148147344589233, 184.13435409963131, 905.148147344589233 ],
+					"midpoints" : [ 230.106612317611734, 810.0, 255.0, 810.0, 255.0, 905.148147344589233, 187.88435409963131, 905.148147344589233 ],
 					"source" : [ "obj-91", 1 ]
 				}
 

@@ -18,7 +18,9 @@ Link to supertramp162
 
 # ACTUAL STATE
 
-A track created with this device: https://youtu.be/GW951CoEjf4
+Tracks created with this device: 
+- Version 0.5 - https://youtu.be/GW951CoEjf4
+- Latest update - https://youtu.be/m0fzrX3LgxI
 
 1st relaese: 
 - added direct recording function
@@ -26,13 +28,19 @@ A track created with this device: https://youtu.be/GW951CoEjf4
 - new UI
 - added a skybox
 
+2nd release
+- Mous over Help for all UI elements (at least think that i added this for all ... )
+- An additional object to chose from (Wave, just to play with jit.gen)
+- Many more options to customize the objects rendering and camera control.
+- you can use a custome skybox. Just drop the skybox file (cross shape cubemap) on the video preview in the plugin.
+
 ![Screenshot](./Device-Screenshot.png)
 
 # NEXT STEPS
 
 ~~- Understand what was done and use it to develop furter from here ... we will see.~~
 ~~- Use custome Cubemap by dropping file on Plugin~~
-- improve on animation
+- improve on animation ... ongoing
 - improve on video effects
 
 # Remarks
