@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1170.0, 228.0, 1540.0, 747.0 ],
+		"rect" : [ 1217.0, 228.0, 1540.0, 747.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -255,7 +255,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "Resolution",
-							"parameter_mmax" : 1.0,
+							"parameter_mmax" : 2.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Resolution",
 							"parameter_type" : 3
@@ -304,8 +304,9 @@
 			}
 , 			{
 				"box" : 				{
-					"dstrect" : [ 0, 0, 420, 240 ],
+					"dstrect" : [ 0, 0, 290, 163 ],
 					"id" : "obj-140",
+					"ignoreclick" : 1,
 					"maxclass" : "jit.pwindow",
 					"name" : "rec-preview",
 					"numinlets" : 1,
@@ -314,6 +315,8 @@
 					"patching_rect" : [ 266.0, 612.0, 290.0, 163.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 2.0, 290.0, 163.0 ],
+					"shared" : 0,
+					"srcrect" : [ 0, 0, 420, 240 ],
 					"sync" : 1
 				}
 
@@ -486,7 +489,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "Codec",
-							"parameter_mmax" : 5.0,
+							"parameter_mmax" : 2.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Codec",
 							"parameter_type" : 3
