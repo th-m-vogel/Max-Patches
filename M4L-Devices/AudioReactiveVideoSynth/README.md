@@ -1,14 +1,16 @@
 # WARNING
+**Update 29.3.2024** - I just upgraded to Ableton 12 and - it crashes Ableton 12. However, it works as intended when opening a Live Set that contains already the plugin. What is strange. Once you have a Live Set loaded with the plugin active, you can even choose to make a "New Live Set" and add the plugin without problems. Very strange indeed ... Same happens with other jitter/gl plugins in Ableton 12.
 
-Using this M4L device on Ableton Live 11 using the embedded Max8 Version (8.5.6) will probaly crash you Ableton. Also, the Skybox Feature will not work here.
-Upadte Max to use this device! This device was developed and tested using Ableton Live 11 and Max8 8.6.2.
+I added a Live Set here that already contains the plugin and seems to be working with Ableton 12: [AudioReacticeVideoSynth-AbletonLiveSet-Project](https://github.com/th-m-vogel/Max-Patches/raw/main/M4L-Devices/AudioReactiveVideoSynth/AudioReacticeVideoSynth-AbletonLiveSet-Project.zip "Download")
+
+The Skybox feature does not work in Ableton 11 using the embedded Max version.
 
 This M4L device is heavy! It may eat a lot of cpu, it uses GPU. This is especialy so if you use it for the 1st time. It is probably not posible to have it running in an already cpu expensive live set. 
 
 ## My System
 
 Deleopment and testing is done using Windows 11, Ableton 11 Suite (latest update), Max8 (latest update), Ableton is configured to NOT use the bundled Max version (Ableton Preference, Folders).
-- AMd Ryzen 7 5700 8 Core CPU
+- AMD Ryzen 7 5700 8 Core CPU
 - 32 GB
 - Geforce RTX 3060
 - 32 GB Memory

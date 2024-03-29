@@ -308,9 +308,9 @@
 					"id" : "obj-140",
 					"ignoreclick" : 1,
 					"maxclass" : "jit.pwindow",
-					"name" : "rec-preview",
 					"numinlets" : 1,
 					"numoutlets" : 2,
+					"onscreen" : 0,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 266.0, 612.0, 290.0, 163.0 ],
 					"presentation" : 1,
@@ -364,11 +364,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
-							"parameter_longname" : "Audio gain[1]",
+							"parameter_longname" : "Record gain",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "Audio gain",
+							"parameter_shortname" : "Record gain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
 						}
@@ -437,7 +437,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "Toggle record[1]",
+							"parameter_longname" : "Toggle record",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Toggle record",
