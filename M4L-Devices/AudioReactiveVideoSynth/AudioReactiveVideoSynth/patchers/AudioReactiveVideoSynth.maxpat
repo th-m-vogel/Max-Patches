@@ -42,6 +42,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-68",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1192.0, 890.0, 400.0, 29.0 ],
+					"text" : "jit.gl.pass nodyBlackatron-Audio-Reactor-Supertramp162 @fxname bloom-hq @threshold 1.2 @gamma 0.8 @quality hi @bloom_amt 3.6"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"hint" : "Audio signal based video Distortion On/Off",
 					"id" : "obj-36",
 					"maxclass" : "live.text",
@@ -51,7 +63,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 189.713224635223469, 594.105262935161591, 56.393387682388266, 17.736841797828674 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 761.184203267097473, 89.47368335723877, 52.63157844543457, 15.789473533630371 ],
+					"presentation_rect" : [ 764.0, 89.0, 46.815796732902527, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -85,7 +97,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 264.0, 574.815783858299255, 27.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 768.421045303344727, 105.263156890869141, 37.776058155456667, 48.0 ],
+					"presentation_rect" : [ 768.0, 108.0, 37.776058155456667, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Signal Intensity",
@@ -153,7 +165,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 247.0, 564.739540874958038, 68.75, 76.468285918235779 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 761.184203267097473, 89.47368335723877, 52.63157844543457, 71.815788865089417 ],
+					"presentation_rect" : [ 759.352030311916792, 86.184209704399109, 56.0, 75.289473652839661 ],
 					"proportion" : 0.39,
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{
@@ -930,19 +942,6 @@
 					}
 ,
 					"varname" : "Line Width"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-140",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "jit_gl_texture", "", "" ],
-					"patching_rect" : [ 1152.0, 912.0, 401.5, 31.0 ],
-					"text" : "jit.gl.pass nodyBlackatron-Audio-Reactor-Supertramp162 @fxname bloom-hq @threshold 1.2 @gamma 0.8 @quality hi @bloom_amt 3.6"
 				}
 
 			}
@@ -2617,6 +2616,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-6",
+									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -5056,7 +5056,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-30",
-									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -6052,7 +6051,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "jit_gl_texture", "bang", "" ],
 									"patching_rect" : [ 130.0, 612.0, 841.0, 22.0 ],
-									"text" : "jit.world Blackatron-Audio-Reactor-Supertramp162 @fsaa 1 @fps 60 @size 420 240 @dim 420 240 @erase_color 0 0 0 1 @output_texture 1 @fsmenubar 0"
+									"text" : "jit.world Blackatron-Audio-Reactor-Supertramp162 @fsaa 1 @fps 60 @size 420 240 @dim 840 480 @erase_color 0 0 0 1 @output_texture 1 @fsmenubar 0"
 								}
 
 							}
@@ -6668,7 +6667,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-1",
-									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
