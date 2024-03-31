@@ -7,6 +7,17 @@ The Skybox feature does not work in Ableton 11 using the embedded Max version.
 
 This M4L device is heavy! It may eat a lot of cpu, it uses GPU. This is especialy so if you use it for the 1st time. It is probably not posible to have it running in an already cpu expensive live set. 
 
+## Can I use this without Ableton?
+
+If you have Max8 - as you like. Download the full Max8 Project zip file, open the Project in Max8 and have fun. I deleop it in Max8 standalone and there is an ezdac~ / ezadc~ included. for this reason. If you load the project in Max, you will find two aditional, large, buttons in the visualisation (below the Ableton Plugin verical Limit):
+ - High Res ON/OFF: Sets the internal dimension and the external window to 1080P, this will also result in good image quality if you use "esc" in the external window to switch to full screen
+ - Esadc ON/OFF: enables signal inpuit from ezadc and pass trougth to to ezdac (ofc you need to switch audio on in Max8) 
+ And if you find parts on the patchers that you like, want to copy for yourself - feel free. At Maxforlife.com i used "Creatice commons attribution License". Here it is maked GPL-3. For real, I don't care. Download it and disembowel it as you like. It is open source. It would IMHO just polite, if you use reasonable parts to publich you own work based on this code, to attribute the, now two, creators, Supertramp 162 and me.
+
+ [AudioReacticeVideoSynth-Max8-Project-Zip](https://github.com/th-m-vogel/Max-Patches/raw/main/M4L-Devices/AudioReactiveVideoSynth/AudioReactiveVideoSynth.zip "Download")
+
+ The ZIP File may not always be up to date, better pull the project or fork it using git.
+
 ## My System
 
 Deleopment and testing is done using Windows 11, Ableton 11 Suite (latest update), Max8 (latest update), Ableton is configured to NOT use the bundled Max version (Ableton Preference, Folders).
