@@ -2,8 +2,6 @@
 **Update 01.04.2024** - Thanks to Cycling74 support for pointig this out: If this plugin crashes on load, check what 3rd party plugins you already have in your live set. I can confirm, my Ableton 12 crashes on load if Amplitube 5 is present in any track of the live set. I can also reproduce this incompatibility on Ableton 11.
 ~~29.03.2024 I just upgraded to Ableton 12 and - it crashes Ableton 12. However, it works as intended when opening a Live Set that contains already the plugin. What is strange. Once you have a Live Set loaded with the plugin active, you can even choose to make a "New Live Set" and add the plugin without problems. Very strange indeed ... Same happens with other jitter/gl plugins in Ableton 12.~~
 
-I added a Live Set here that already contains the plugin and seems to be working with Ableton 12: [AudioReacticeVideoSynth-AbletonLiveSet-Project](https://github.com/th-m-vogel/Max-Patches/raw/main/M4L-Devices/AudioReactiveVideoSynth/AudioReacticeVideoSynth-AbletonLiveSet-Project.zip "Download")
-
 The Skybox feature does not work in Ableton 11/12 using the embedded Max version.
 
 This M4L device is heavy! It may eat a lot of cpu, it uses GPU. This is especialy so if you use it for the 1st time. It is probably not posible to have it running in an already cpu expensive live set. 
