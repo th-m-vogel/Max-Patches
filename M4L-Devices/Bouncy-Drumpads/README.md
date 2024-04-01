@@ -10,6 +10,8 @@ The grid is a lie and gravity in Max physics is chaotic ... To be honest, i just
 
 Very early development, just working state ...
 
+![Screenshot](./Device-Screenshot.png)
+
 # Remarks
 
 Enjoy ... make music ... Use at your own risk ... 
