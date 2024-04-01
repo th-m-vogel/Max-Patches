@@ -1,0 +1,17 @@
+mode, transposition in semi-tones for each scale degree;
+0 chromatic, 12;
+1 ionian, 7;
+2 dorian, 7;
+3 phrygian, 7;
+4 lydian, 7;
+5 mixolydian, 7;
+6 aeolian, 7;
+7 locrian, 7;
+8 wholetone, 6;
+9 min7, 4;
+10 dim7, 4;
+11 octatonic2-1, 8;
+12 octatonic1-2, 8;
+13 major-pentatonic, 5;
+14 minor-pentatonic, 5;
+15 invert, 12;

@@ -1,0 +1,22 @@
+{
+	"diffuse_model" : "lambert",
+	"specular_model" : "toon",
+	"fog" : "none",
+	"params" : 	{
+		"specular_smooth" : 0.100000001490116,
+		"specular_size" : 0.300000011920929
+	}
+,
+	"textures" : 	{
+
+	}
+,
+	"filename" : "pads.jitmtl",
+	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+	"mat_emission" : [ 0.0, 0.0, 0.0, 1.0 ],
+	"mat_ambient" : [ 0.0, 0.0, 0.0, 1.0 ],
+	"mat_diffuse" : [ 0.0, 0.0, 0.0, 1.0 ],
+	"mat_specular" : [ 0.5, 0.5, 0.5, 1.0 ],
+	"shininess" : [ 34.700000762939453 ],
+	"fog_params" : [ 0.5, 0.5, 0.5, 0.0, 1.0, 1.0, 100.0 ]
+}
