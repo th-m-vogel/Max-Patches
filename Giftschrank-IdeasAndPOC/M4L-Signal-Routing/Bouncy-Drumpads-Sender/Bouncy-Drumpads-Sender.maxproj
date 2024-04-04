@@ -2,8 +2,8 @@
 	"name" : "Bouncy-Drumpads-Sender",
 	"version" : 1,
 	"creationdate" : 3794756055,
-	"modificationdate" : 3795014652,
-	"viewrect" : [ 248.0, 640.0, 300.0, 512.0 ],
+	"modificationdate" : 3795074794,
+	"viewrect" : [ 68.0, 585.0, 300.0, 512.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -15,10 +15,6 @@
 				"local" : 1,
 				"toplevel" : 1
 			}
-
-		}
-,
-		"data" : 		{
 
 		}
 ,

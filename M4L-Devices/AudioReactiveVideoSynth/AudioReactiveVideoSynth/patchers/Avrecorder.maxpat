@@ -198,7 +198,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Celolution Select",
+					"comment" : "Resolution Select",
 					"id" : "obj-3",
 					"index" : 1,
 					"maxclass" : "outlet",
@@ -283,7 +283,7 @@
 
 					}
 ,
-					"text" : "Recording to: Desktop",
+					"text" : "Recording to: D:/temp/",
 					"textjustification" : 0
 				}
 
