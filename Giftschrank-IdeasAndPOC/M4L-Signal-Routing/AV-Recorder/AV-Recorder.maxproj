@@ -2,7 +2,7 @@
 	"name" : "AV-Recorder",
 	"version" : 1,
 	"creationdate" : 3795024481,
-	"modificationdate" : 3795024505,
+	"modificationdate" : 3795189984,
 	"viewrect" : [ 25.0, 107.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -29,7 +29,7 @@
 	}
 ,
 	"detailsvisible" : 0,
-	"amxdtype" : 0,
+	"amxdtype" : 1633771873,
 	"readonly" : 0,
 	"devpathtype" : 0,
 	"devpath" : ".",
