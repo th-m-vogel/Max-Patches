@@ -42,6 +42,75 @@
 		"title" : "Max MIDI Effect",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-102",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 529.0, 145.0, 261.0, 31.0 ],
+					"text" : "jit.gl.spoutsender ---BouncingDrumpads @sendername ---BouncingDrumpads @enable 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-99",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 153.0, 277.0, 83.0, 20.0 ],
+					"text" : "visible $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-77",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 148.0, 240.0, 56.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 174.0, 233.0, 56.0, 18.0 ],
+					"text" : "Visible",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hint" : "External Window visible",
+					"id" : "obj-93",
+					"maxclass" : "live.toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 153.0, 226.0, 45.894734263420105, 45.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 179.0, 219.0, 45.894734263420105, 45.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "off", "on" ],
+							"parameter_initial" : [ 1.0 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "ExtVisible",
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "ExtVisible",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"varname" : "live.toggle[3]"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.011764705882353, 0.396078431372549, 0.752941176470588, 1.0 ],
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.0,
@@ -49,7 +118,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1646.0, 74.5, 65.0, 20.0 ],
+					"patching_rect" : [ 1646.0, 74.5, 66.0, 20.0 ],
 					"text" : "s ---to-world"
 				}
 
@@ -75,7 +144,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1152.0, 15.0, 206.0, 25.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Remote Recorder Collab",
 					"textjustification" : 1
 				}
@@ -128,17 +196,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1307.0, 59.0, 68.0, 31.0 ],
 					"text" : "metro 1000 @active 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-61",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 475.0, 143.0, 527.0, 18.0 ],
-					"text" : "jit.gl.spoutsender ---BouncingDrumpads @sendername ---BouncingDrumpads @enable 0"
 				}
 
 			}
@@ -254,7 +311,7 @@
 					"patching_rect" : [ 683.0, 57.5, 50.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 226.0, 127.0, 48.0, 29.0 ],
+					"presentation_rect" : [ 231.0, 114.5, 48.0, 29.0 ],
 					"text" : "Spout\nSender",
 					"textjustification" : 1
 				}
@@ -271,7 +328,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 685.0, 49.5, 45.894734263420105, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 227.0, 119.0, 45.894734263420105, 45.0 ],
+					"presentation_rect" : [ 232.0, 106.5, 45.894734263420105, 45.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
@@ -628,6 +685,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-13",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -1302,7 +1360,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 674.0, 693.0, 182.0, 20.0 ],
-					"text" : "sendbody 3 2 impulse 0. 7.75 0."
+					"text" : "sendbody 0 3 impulse 0. 5. 0."
 				}
 
 			}
@@ -3359,6 +3417,7 @@
 				"box" : 				{
 					"activebgcolor" : [ 1.0, 0.490196, 0.262745, 1.0 ],
 					"activebgoncolor" : [ 1.0, 0.34902, 0.372549, 1.0 ],
+					"bgoncolor" : [ 0.945098039215686, 0.945098039215686, 0.945098039215686, 1.0 ],
 					"id" : "obj-26",
 					"maxclass" : "live.button",
 					"numinlets" : 1,
@@ -4111,21 +4170,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"attr" : "visible",
-					"id" : "obj-77",
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 208.0, 277.0, 150.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 222.0, 10.0, 150.0, 20.0 ]
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -4169,6 +4213,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-119", 0 ],
 					"source" : [ "obj-109", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-102", 0 ],
+					"midpoints" : [ 694.5, 135.0, 538.5, 135.0 ],
+					"source" : [ "obj-110", 0 ]
 				}
 
 			}
@@ -4604,14 +4656,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
-					"midpoints" : [ 217.5, 314.0, 33.394736051559448, 314.0 ],
-					"source" : [ "obj-77", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-80", 1 ],
 					"midpoints" : [ 948.5, 376.0, 906.0, 376.0 ],
 					"source" : [ "obj-78", 0 ]
@@ -4712,6 +4756,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-99", 0 ],
+					"source" : [ "obj-93", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-96", 0 ],
 					"source" : [ "obj-94", 0 ]
 				}
@@ -4741,6 +4792,13 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"source" : [ "obj-99", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
 			"obj-111" : [ "live.toggle[2]", "live.toggle", 0 ],
@@ -4750,6 +4808,7 @@
 			"obj-48" : [ "live.toggle", "live.toggle", 0 ],
 			"obj-51" : [ "Pad_Bounce", "Pad Bounce", 0 ],
 			"obj-86" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-93" : [ "ExtVisible", "ExtVisible", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -4758,6 +4817,10 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "jit.gl.spoutsender.mxe64",
+				"type" : "mx64"
+			}
+, 			{
 				"name" : "jit.mo.time.mxe64",
 				"type" : "mx64"
 			}
