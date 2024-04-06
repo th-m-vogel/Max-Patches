@@ -138,7 +138,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-4",
-					"items" : [ "---AAA", ",", "---BouncyDrumpads", ",", "huuuu" ],
+					"items" : "---BouncyDrumpads",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -146,7 +146,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 453.0, 651.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 736.0, 54.0, 100.0, 20.0 ]
+					"presentation_rect" : [ 531.0, 115.0, 100.0, 20.0 ]
 				}
 
 			}
@@ -215,13 +215,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-127",
-					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 578.0, 108.000001609325409, 43.0 ],
-					"text" : "---AAA ---BouncyDrumpads huuuu"
+					"patching_rect" : [ 300.0, 578.0, 108.000001609325409, 20.0 ],
+					"text" : "---BouncyDrumpads"
 				}
 
 			}
@@ -361,13 +360,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-45",
-					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 296.0, 460.0, 108.000001609325409, 43.0 ],
-					"text" : "---AAA ---BouncyDrumpads huuuu"
+					"patching_rect" : [ 296.0, 460.0, 108.000001609325409, 20.0 ],
+					"text" : "---BouncyDrumpads"
 				}
 
 			}
@@ -1145,8 +1143,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sev.Avrecorder.maxpat",
-				"bootpath" : "~/OneDrive/Dokumente/Max 8/Library/Sevetamryn",
-				"patcherrelativepath" : "../../../../../../Max 8/Library/Sevetamryn",
+				"bootpath" : "~/OneDrive/Dokumente/Max 8/Library/Max-Abstractions",
+				"patcherrelativepath" : "../../../../../../Max 8/Library/Max-Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
