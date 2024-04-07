@@ -16,6 +16,8 @@ Oh, you asking about tis "External VCR" thingy thing? That's preperation for som
 
 https://youtu.be/XBGGrbZab48
 
+https://youtu.be/1vF5K1ClU_E 
+
 ![Screenshot](./Device-Screenshot.png)
 
 # Remarks
