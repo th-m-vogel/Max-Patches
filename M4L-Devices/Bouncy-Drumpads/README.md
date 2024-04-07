@@ -8,7 +8,8 @@ The grid is a lie and gravity in Max physics is chaotic ... To be honest, i just
 
 # ACTUAL STATE
 
-The pads are sometimes sticky and do not trigger, just like in the real world ... ads some extra randomnes, call it intended.
+~~The pads are sometimes sticky and do not trigger, just like in the real world ... ads some extra randomnes, call it intended.~~
+The Pads are now working fine, i found an issue in Max8 collision detextion and also a fix.
 
 You can now run multiple instances of this plugin in your session. May make the UI slow. Ableton dows not like M4L devices using Max jit.gl ... or maybe Max jit.gl does not like to run inside Ableton ... I don't know.
 
