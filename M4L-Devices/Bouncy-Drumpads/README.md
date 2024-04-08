@@ -13,7 +13,9 @@ The Pads are now working fine, i found an issue in Max8 collision detextion and 
 
 Some graphics rework, light effects and rounded edges. ... IMHO looks better.
 
-You can now run multiple instances of this plugin in your session. May make the UI slow. Ableton dows not like M4L devices using Max jit.gl ... or maybe Max jit.gl does not like to run inside Ableton ... I don't know.
+Now with indevidual bounciness control per pad.
+
+You can now also run multiple instances of this plugin in your session. May make the UI slow. Ableton dows not like M4L devices using Max jit.gl ... or maybe Max jit.gl does not like to run inside Ableton ... I don't know.
 
 Oh, you asking about tis "External VCR" thingy thing? That's preperation for someting upcomming.
 

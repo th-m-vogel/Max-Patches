@@ -2,8 +2,8 @@
 	"name" : "Bouncy-Drumpads",
 	"version" : 1,
 	"creationdate" : 3794756055,
-	"modificationdate" : 3795411941,
-	"viewrect" : [ 78.0, 578.0, 300.0, 512.0 ],
+	"modificationdate" : 3795460570,
+	"viewrect" : [ 70.0, 767.0, 300.0, 512.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -19,6 +19,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"pad-contol.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
