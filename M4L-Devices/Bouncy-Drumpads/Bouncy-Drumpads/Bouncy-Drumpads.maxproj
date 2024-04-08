@@ -2,8 +2,8 @@
 	"name" : "Bouncy-Drumpads",
 	"version" : 1,
 	"creationdate" : 3794756055,
-	"modificationdate" : 3794935250,
-	"viewrect" : [ 248.0, 640.0, 300.0, 512.0 ],
+	"modificationdate" : 3795411941,
+	"viewrect" : [ 78.0, 578.0, 300.0, 512.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -19,6 +19,14 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+
+		}
+,
+		"media" : 		{
+			"Pad-Fillet.obj" : 			{
+				"kind" : "model",
+				"local" : 1
 			}
 
 		}
