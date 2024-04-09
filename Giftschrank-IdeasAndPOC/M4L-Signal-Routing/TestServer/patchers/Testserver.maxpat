@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 710.0, 184.0, 1753.0, 967.0 ],
+		"rect" : [ 445.0, 267.0, 1753.0, 967.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial Bold",
@@ -86,7 +86,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1077.0, 329.0, 93.0, 20.0 ],
+					"patching_rect" : [ 1123.0, 329.0, 93.0, 20.0 ],
 					"text" : "s ---from_world"
 				}
 
@@ -101,7 +101,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 463.5, 207.0, 68.0, 20.0 ],
+					"patching_rect" : [ 368.0, 236.0, 68.0, 20.0 ],
 					"text" : "r ---to_world"
 				}
 
@@ -1743,7 +1743,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1260.0, 911.0, 24.0, 24.0 ]
+					"patching_rect" : [ 1260.0, 911.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 278.0, 94.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1755,6 +1757,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1260.0, 939.0, 101.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 278.0, 122.0, 101.0, 20.0 ],
 					"text" : "poly_mode $1 $1"
 				}
 
@@ -3486,7 +3490,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_gl_texture", "bang", "" ],
 					"patching_rect" : [ 368.0, 292.0, 774.0, 20.0 ],
-					"text" : "jit.world ---Audio-Reactive-Circles @fsaa 1 @size 400 270 @dim 499 270 @floating 1 @erase_color 0 0 0 1 @fsmenubar 0 @fps 30 @sync 1 @enable 1 @output_texture 1"
+					"text" : "jit.world ---Audio-Reactive-Circles @fsaa 1 @size 400 270 @dim 499 270 @floating 0 @erase_color 0 0 0 1 @fsmenubar 0 @fps 30 @sync 1 @enable 1 @output_texture 1"
 				}
 
 			}
