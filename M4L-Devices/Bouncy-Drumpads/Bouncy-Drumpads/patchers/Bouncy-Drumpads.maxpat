@@ -78,7 +78,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 458.5, 16.0, 525.0, 62.0 ],
-					"presentation_linecount" : 5,
 					"text" : "Sevetamryn 2024\nhttps://maxforlive.com/profile/user/Sevetamryn\nhttps://github.com/th-m-vogel/Max-Patches",
 					"textjustification" : 1
 				}
@@ -1393,7 +1392,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 61.0, 516.0, 182.0, 22.0 ],
-									"text" : "sendbody 0 1 impulse 0. 4.5 0."
+									"text" : "sendbody 0 2 impulse 0. 4.75 0."
 								}
 
 							}
@@ -2960,28 +2959,8 @@
 								}
 
 							}
-, 							{
-								"box" : 								{
-									"attr" : "bloom_amt",
-									"id" : "obj-1",
-									"maxclass" : "attrui",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 50.0, 53.0, 150.0, 22.0 ]
-								}
-
-							}
  ],
 						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-21", 0 ],
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-98", 0 ],
 									"midpoints" : [ 19.5, 219.0, 59.5, 219.0 ],
@@ -3218,7 +3197,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 38.0, 625.0, 47.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.294118076562881, 110.000004589557648, 45.882354855537415, 18.0 ],
+					"presentation_rect" : [ 10.294118076562881, 110.000004589557648, 46.0, 18.0 ],
 					"text" : "Physics",
 					"textjustification" : 1
 				}
@@ -3435,36 +3414,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-13",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 1169.0, 564.0, 202.0, 22.0 ],
-									"text" : "plane -1, selmode 0, colwidth 120"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"cols" : 4,
-									"colwidth" : 120,
-									"fontface" : 0,
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"id" : "obj-14",
-									"maxclass" : "jit.cellblock",
-									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "list", "", "", "" ],
-									"patching_rect" : [ 1104.0, 624.0, 522.36841607093811, 116.447367310523987 ],
-									"rows" : 4,
-									"selmode" : 0
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-10",
 									"linecount" : 3,
 									"maxclass" : "newobj",
@@ -3667,7 +3616,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 236.0, 657.0, 618.0, 22.0 ],
+									"patching_rect" : [ 236.0, 657.0, 402.0, 22.0 ],
 									"text" : "jit.gl.model ---BouncyDrumpads @file Pad-Fillet.obj @position 0. 0.4 0."
 								}
 
@@ -5267,17 +5216,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-14", 0 ],
-									"order" : 0,
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-47", 2 ],
 									"midpoints" : [ 1037.5, 541.0, 789.0, 541.0, 789.0, 465.0, 769.5, 465.0 ],
-									"order" : 1,
 									"source" : [ "obj-10", 0 ]
 								}
 
@@ -5359,13 +5299,6 @@
 									"midpoints" : [ 103.5, 327.0, 432.5, 327.0 ],
 									"order" : 2,
 									"source" : [ "obj-123", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-14", 0 ],
-									"source" : [ "obj-13", 0 ]
 								}
 
 							}
