@@ -1,6 +1,6 @@
 # DESCRIPTION:
 
-The goal is to create a universal AV Recorder, able to connect to any device that is M4L deviice that is configured zu use it. 
+The goal is to create a universal AV Recorder, able to connect to any M4L deviice that is prepared zu use it. 
 
 # Download M4L device
 
