@@ -8,16 +8,25 @@ The grid is a lie and gravity in Max physics is chaotic ... To be honest, i just
 
 # ACTUAL STATE
 
-~~The pads are sometimes sticky and do not trigger, just like in the real world ... ads some extra randomnes, call it intended.~~
-The Pads are now working fine, i found an issue in Max8 collision detextion and also a fix.
+I call this Version 1.0
 
-Some graphics rework, light effects and rounded edges. ... IMHO looks better.
+A Physics Based MIDI Generator. Did you ever thought “What would happen if I could bounce balls on my 4 x 4 pad section of my MIDI controller?” … Well, there it is. And as it is a simulation …
 
-Now with indevidual bounciness control per pad.
+-	You can adjust Gravity.
+-	You can adjust the bounciness of the pads to unnatural high levels.
+-	Simulated physics is a bit glitchy, so there is some randomness.
 
-You can now also run multiple instances of this plugin in your session. May make the UI slow. Ableton dows not like M4L devices using Max jit.gl ... or maybe Max jit.gl does not like to run inside Ableton ... I don't know.
+You can run multiple instances in different track of your Ableton Live Set
+For the external window, obviously you can resize it. And you have buttons in the plugin for specific sizes and framerate. To conserve system resources keep it small and low res. 
 
-Oh, you asking about tis "External VCR" thingy thing? That's preperation for someting upcomming.
+-	Pressing Esc-Key in the external window will make it full screen.
+-	When “Spin” is witched off, you can control the camera using “W A S D Q Z”.
+
+Full HD at 60 Hz may have noticeable effects on the UI interactions with you Ableton Live! This is a know issue with M4L using 3D graphics.
+
+### What is this “External VCR” thing?
+In parallel I work on an AV recording plugin you can place in your master track to record graphics from visualization plugins. This will come soon (I hope so). Stay tuned, prototype is already somewhat working.
+
 
 https://youtu.be/XBGGrbZab48
 
