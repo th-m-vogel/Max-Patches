@@ -2,7 +2,7 @@
 	"name" : "Bouncy-Drumpads",
 	"version" : 1,
 	"creationdate" : 3794756055,
-	"modificationdate" : 3795546999,
+	"modificationdate" : 3795582993,
 	"viewrect" : [ 70.0, 767.0, 300.0, 512.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -38,13 +38,11 @@
 ,
 		"data" : 		{
 			"PitchModes.txt" : 			{
-				"kind" : "textfile",
-				"local" : 1
+				"kind" : "textfile"
 			}
 ,
 			"PitchModesLengths.txt" : 			{
-				"kind" : "textfile",
-				"local" : 1
+				"kind" : "textfile"
 			}
 
 		}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1173.0, 236.0, 1596.0, 1024.0 ],
+		"rect" : [ 672.0, 150.0, 1596.0, 837.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 169.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -41,6 +41,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "ezadc~",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 977.0, 68.0, 45.0, 45.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -49,7 +60,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 354.0, 555.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 514.0, 100.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 540.0, 127.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -277,7 +288,7 @@
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "gradient",
 					"id" : "obj-4",
-					"items" : "<empty>",
+					"items" : [ "---Audio-Reactive-Circles", ",", "---BouncyDrumpads" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -285,7 +296,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 453.000000804662704, 681.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 546.0, 102.0, 100.0, 20.0 ]
+					"presentation_rect" : [ 566.0, 129.0, 100.0, 20.0 ]
 				}
 
 			}
@@ -293,11 +304,13 @@
 				"box" : 				{
 					"dontreplace" : 1,
 					"id" : "obj-127",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 316.0, 671.0, 108.000001609325409, 20.0 ]
+					"patching_rect" : [ 316.0, 671.0, 108.000001609325409, 43.0 ],
+					"text" : "---Audio-Reactive-Circles ---BouncyDrumpads"
 				}
 
 			}
@@ -413,11 +426,13 @@
 				"box" : 				{
 					"dontreplace" : 1,
 					"id" : "obj-45",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 296.0, 438.0, 108.000001609325409, 20.0 ]
+					"patching_rect" : [ 296.0, 438.0, 108.000001609325409, 43.0 ],
+					"text" : "---Audio-Reactive-Circles ---BouncyDrumpads"
 				}
 
 			}
@@ -952,6 +967,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
 					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 2 ],
+					"midpoints" : [ 1012.5, 165.0, 1122.833342989285711, 165.0 ],
+					"source" : [ "obj-20", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 1 ],
+					"midpoints" : [ 986.5, 165.0, 890.166676322619082, 165.0 ],
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
