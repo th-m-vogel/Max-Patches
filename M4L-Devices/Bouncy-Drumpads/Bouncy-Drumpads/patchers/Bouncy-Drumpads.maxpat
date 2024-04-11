@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1000.0, 192.0, 1937.0, 1070.0 ],
+		"rect" : [ 459.0, 797.0, 810.0, 209.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 169.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -1392,7 +1392,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 61.0, 516.0, 182.0, 22.0 ],
-									"text" : "sendbody 0 2 impulse 0. 4.75 0."
+									"text" : "sendbody 0 1 impulse 0. 4.5 0."
 								}
 
 							}
@@ -3343,7 +3343,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-13",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -6463,15 +6462,15 @@
 			}
 , 			{
 				"name" : "PitchModes.txt",
-				"bootpath" : "~/OneDrive/Dokumente/GitHub/Max-Patches/M4L-Devices/Bouncy-Drumpads/Bouncy-Drumpads/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/OneDrive/Dokumente/Max 8/Library/Max-Abstractions/ScaleGenerator",
+				"patcherrelativepath" : "../../../../../../Max 8/Library/Max-Abstractions/ScaleGenerator",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PitchModesLengths.txt",
-				"bootpath" : "~/OneDrive/Dokumente/GitHub/Max-Patches/M4L-Devices/Bouncy-Drumpads/Bouncy-Drumpads/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/OneDrive/Dokumente/Max 8/Library/Max-Abstractions/ScaleGenerator",
+				"patcherrelativepath" : "../../../../../../Max 8/Library/Max-Abstractions/ScaleGenerator",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -6488,8 +6487,8 @@
 			}
 , 			{
 				"name" : "sev.VideoSender.maxpat",
-				"bootpath" : "~/OneDrive/Dokumente/GitHub/Max-Patches/M4L-Devices/Bouncy-Drumpads/Bouncy-Drumpads/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/OneDrive/Dokumente/Max 8/Library/Max-Abstractions",
+				"patcherrelativepath" : "../../../../../../Max 8/Library/Max-Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
