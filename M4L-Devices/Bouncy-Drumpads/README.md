@@ -31,9 +31,9 @@ In parallel I work on an AV recording plugin you can place in your master track 
 - The in device preview will disapear when changing to another track and back however it will still work ... in most cases
 - it is available in two flavors
 
-Modular-Spout-Sender - https://../Modular-Spout-Sender/
+[Modular-Spout-Sender](../Modular-Spout-Sender/)
 
-Modular-AV-Recorder - https://../Modular-AV-Recorder/
+[Modular-AV-Recorder](../Modular-AV-Recorder/)
 
 # Showcase
 
