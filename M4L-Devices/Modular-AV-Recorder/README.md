@@ -23,6 +23,8 @@ Known issues:
 - when you go to a different track and come back to the track where the device resides, the preview will probably be black and stay this way. However, it is still in working conditions. You still can change sources. What is neasy to check using your spout resceiver.
 - deleting the device while a source plugin is connected mwill probably effect the source plugins graphic presentation.
 
+And yes, the device is a canibalized thing from vizzier recorder ...
+
 ![Screenshot](./Device-Screenshot.png)
 
 # Download M4L device
