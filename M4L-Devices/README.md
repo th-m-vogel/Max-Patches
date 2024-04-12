@@ -28,6 +28,16 @@ Latest Release M4L device downlod [Boouncy-Drumpads](https://github.com/th-m-vog
 
 ![Screenshot](<./Bouncy-Drumpads/Device-Screenshot.png>)
 
+# Beta Devices
+
+** BETA **, you have been warned ...
+
+## [Modular-AV-Recorder](./Modular-AV-Recorder/)
+![Screenshot](<./Modular-AV-Recorder/Device-Screenshot.png>)
+
+## [Modular-Spout-Sender](./Modular-Spout-Sender/)
+![Screenshot](<./Modular-Spout-Sender/Device-Screenshot.png>)
+
 # Remarks
 
 Enjoy ... make music ... Use at your own risk ... 
