@@ -5,18 +5,18 @@
 This device is designed to auto discover video M4L devices available in the Ableton set. Auto discover is based on a properitary protocoll, however everything is open source, see also below the section regarding the Abstraction needed to enable existing Video patchers to be discovered and connected. 
 
 ** Attention **
-This devive is very hungry for Ressources and may (on high resolution) render you Ableton in a state where you cant interact with the user interface. For this reason i derived a spout version from this devoce, also available here ../Modular-Spout-Sender/
-I HIGHLY recoomend, if you are familiar (or wnte to becom familiar) with Spout, use the Modular-Spout-Sender! 
+This devive is very hungry for Ressources and may (on high resolution) render your Ableton in a state where you can't interact with the user interface. For this reason i created a Spout version from this device, also available here ../Modular-Spout-Sender/ 
+I HIGHLY recoomend, if you are familiar (or want to become familiar) with Spout, use the Modular-Spout-Sender! 
 
 Basic functions:
-- Select Target Folder - self descriptive i think ;) ... Default target is "Desktop"
-- "Rec Start" locks the source select menu und switches the source to the desired resolution and starts recording
-- The drop down menu is used to select from the available sources
-- Switching it off - Rec stop - stops recording, switches the resolution back and unlocks the source select menu
-- The info text shows what source is selected
-- The selected source is visible when Preview on 
-- The codec menu selects video codec for recording
-- The resolution menu selects the resulution to set when "Rec Arm" is used
+- Select Target Folder - self descriptive i think ;) ... Default target is "Desktop".
+- "Rec Start" locks the source select menu, switches the source to the desired resolution and starts recording.
+- The drop down menu is used to select from the available sources.
+- Switching it off - Rec stop - stops recording, switches the resolution back and unlocks the source select menu.
+- The info text shows what source is selected.
+- The selected source is visible when Preview on. 
+- The codec menu selects video codec for recording.
+- The resolution menu selects the resulution to set when the recording is active.
 
 Known issues:
 - see above - super ressource hungry
@@ -27,7 +27,7 @@ Known issues:
 
 # Download M4L device
 
-[Modular-Spout-Sender](https://github.com/th-m-vogel/Max-Patches/raw/main/M4L-Devices/Modular-AV-Recorder/Modular-AV-Recorder.amxd "Download")
+[Modular-AV-Recorder](https://github.com/th-m-vogel/Max-Patches/raw/main/M4L-Devices/Modular-AV-Recorder/Modular-AV-Recorder.amxd "Download")
 
 # ACTUAL STATE
 
