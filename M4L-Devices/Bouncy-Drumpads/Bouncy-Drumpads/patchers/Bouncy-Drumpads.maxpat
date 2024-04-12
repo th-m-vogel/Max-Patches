@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 459.0, 797.0, 810.0, 209.0 ],
+		"rect" : [ 619.0, 324.0, 1500.0, 889.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 169.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -41,6 +41,33 @@
 		"assistshowspatchername" : 0,
 		"title" : "Max MIDI Effect",
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
+					"id" : "obj-65",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.447367131710052, 621.5, 85.0, 20.0 ],
+					"style" : "chiba",
+					"text" : "r ---M4L_active"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
+					"id" : "obj-64",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 342.447367131710052, 127.52631688117981, 85.0, 20.0 ],
+					"style" : "chiba",
+					"text" : "s ---M4L_active"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontface" : 1,
 					"fontsize" : 16.0,
@@ -635,7 +662,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 50.0, 258.0, 512.0, 50.0 ],
-									"text" : "jit.phys.world @name ---BouncyDrumpadsPhys @drawto ---BouncyDrumpads @worldbox_scale 40. 200. 40. @gravity 0. -1. 0. @collisions 1 @enable 1 @worldbox 1 @numthreads 4"
+									"text" : "jit.phys.world @name ---BouncyDrumpadsPhys @drawto ---_BouncyDrumpads @worldbox_scale 40. 200. 40. @gravity 0. -1. 0. @collisions 1 @enable 1 @worldbox 1 @numthreads 4"
 								}
 
 							}
@@ -850,7 +877,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 39.0, 687.0, 111.0, 20.0 ],
+					"patching_rect" : [ 83.0, 688.0, 111.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1148,7 +1175,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "jit_gl_texture", "bang", "" ],
 									"patching_rect" : [ 50.0, 161.0, 533.0, 31.0 ],
-									"text" : "jit.world ---BouncyDrumpads @fsaa 1 @fps 30 @size 400 270 @dim 400 270 @output_texture 1 @fsmenubar 0 @enable 1"
+									"text" : "jit.world ---_BouncyDrumpads @fsaa 1 @fps 30 @size 400 270 @dim 400 270 @output_texture 1 @fsmenubar 0 @enable 1"
 								}
 
 							}
@@ -1392,7 +1419,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 61.0, 516.0, 182.0, 22.0 ],
-									"text" : "sendbody 0 1 impulse 0. 4.5 0."
+									"text" : "sendbody 1 2 impulse 0. 5.75 0."
 								}
 
 							}
@@ -2058,7 +2085,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_gl_texture", "" ],
 									"patching_rect" : [ 266.0, 195.0, 195.0, 45.0 ],
-									"text" : "jit.gl.camera ---BouncyDrumpads @tripod 1 @locklook 1 @position 0. 5. -28."
+									"text" : "jit.gl.camera ---_BouncyDrumpads @tripod 1 @locklook 1 @position 0. 5. -28."
 								}
 
 							}
@@ -2256,7 +2283,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "jit_gl_texture", "", "" ],
 									"patching_rect" : [ 50.0, 86.0, 741.0, 22.0 ],
-									"text" : "jit.gl.pass ---BouncyDrumpads @fxname bloom-hq @threshold 1.2 @gamma 0.5 @quality hi @bloom_amt 0.8 @upsample_scale 1."
+									"text" : "jit.gl.pass ---_BouncyDrumpads @fxname bloom-hq @threshold 1.2 @gamma 0.5 @quality hi @bloom_amt 0.8 @upsample_scale 1."
 								}
 
 							}
@@ -2282,7 +2309,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 118.0, 273.0, 545.0, 64.0 ],
-									"text" : "jit.gl.material ---BouncyDrumpads @shininess 0. @diffuse_model toon @specular_size 0.193 @override 1 @diffuse_size 0.705 @mat_diffuse 1. 1. 1. 1. @specular_model toon @specular_smooth 0.11 @gl_color 1. 1. 1. 1. @diffuse_smooth 0.127 @mat_specular 1. 1. 1. 1. @mat_emission 1. 1. 1. 1. @mat_ambient 1. 1. 1. 1. @fog none"
+									"text" : "jit.gl.material ---_BouncyDrumpads @shininess 0. @diffuse_model toon @specular_size 0.193 @override 1 @diffuse_size 0.705 @mat_diffuse 1. 1. 1. 1. @specular_model toon @specular_smooth 0.11 @gl_color 1. 1. 1. 1. @diffuse_smooth 0.127 @mat_specular 1. 1. 1. 1. @mat_emission 1. 1. 1. 1. @mat_ambient 1. 1. 1. 1. @fog none"
 								}
 
 							}
@@ -2918,7 +2945,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 118.0, 370.0, 547.0, 36.0 ],
-									"text" : "jit.gl.gridshape ---BouncyDrumpads @name ---OrbitterLight @scale 0.1 0.1 0.1 @position 0. 0. 25. @color 1.5 1.5 1.5 1. @mat_diffuse 1. 1. 1. 0.25 @gl_color 1. 1. 1. 0.25"
+									"text" : "jit.gl.gridshape ---_BouncyDrumpads @name ---OrbitterLight @scale 0.1 0.1 0.1 @position 0. 0. 25. @color 1.5 1.5 1.5 1. @mat_diffuse 1. 1. 1. 0.25 @gl_color 1. 1. 1. 0.25"
 								}
 
 							}
@@ -2931,7 +2958,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 425.0, 509.0, 36.0 ],
-									"text" : "jit.gl.light ---BouncyDrumpads @name ---Orbitter @direction 0. 0. 0. @diffuse 0.25 0.25 0.25 1. @position 0. 5. -20. @type point @shadows 1"
+									"text" : "jit.gl.light ---_BouncyDrumpads @name ---Orbitter @direction 0. 0. 0. @diffuse 0.25 0.25 0.25 1. @position 0. 5. -20. @type point @shadows 1"
 								}
 
 							}
@@ -2943,7 +2970,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 167.315781116485596, 686.0, 22.0 ],
-									"text" : "jit.gl.light ---BouncyDrumpads @name ---Spot2 @direction 1. -1. 1. @diffuse 0.4 0.4 0.4 1. @type point @shadows 1"
+									"text" : "jit.gl.light ---_BouncyDrumpads @name ---Spot2 @direction 1. -1. 1. @diffuse 0.4 0.4 0.4 1. @type point @shadows 1"
 								}
 
 							}
@@ -2955,7 +2982,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 139.026307702064514, 686.0, 22.0 ],
-									"text" : "jit.gl.light ---BouncyDrumpads @name ---Spot1 @direction -1. -1. -1. @diffuse 0.7 0.7 0.7 1. @type point @shadows 1"
+									"text" : "jit.gl.light ---_BouncyDrumpads @name ---Spot1 @direction -1. -1. -1. @diffuse 0.7 0.7 0.7 1. @type point @shadows 1"
 								}
 
 							}
@@ -3033,7 +3060,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 632.815785050392151, 157.0, 22.105263948440552, 144.0 ],
+					"patching_rect" : [ 632.815785050392151, 144.52631688117981, 22.105263948440552, 144.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 12,
 					"presentation_rect" : [ 684.705910921096802, 12.882356107234955, 22.105263948440552, 144.0 ],
@@ -3074,7 +3101,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 666.815785050392151, 263.0, 68.0, 20.0 ],
+					"patching_rect" : [ 666.815785050392151, 268.52631688117981, 68.0, 20.0 ],
 					"text" : "s ---to_world"
 				}
 
@@ -3121,9 +3148,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 666.815785050392151, 186.0, 71.578949928283691, 61.052633762359619 ],
+					"patching_rect" : [ 666.815785050392151, 179.02631688117981, 104.0, 76.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 708.823558986186981, 55.823534369468689, 78.0, 59.0 ],
+					"presentation_rect" : [ 708.811174869537354, 47.439631581306458, 78.0, 78.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -3195,7 +3222,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 38.0, 625.0, 47.0, 18.0 ],
+					"patching_rect" : [ 118.0, 622.5, 47.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.294118076562881, 110.000004589557648, 46.0, 18.0 ],
 					"text" : "Physics",
@@ -3212,7 +3239,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 39.0, 611.0, 45.894734263420105, 45.0 ],
+					"patching_rect" : [ 119.0, 608.5, 45.894734263420105, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.941176801919937, 107.647063314914703, 50.000002086162567, 22.352942109107971 ],
 					"saved_attribute_attributes" : 					{
@@ -3318,7 +3345,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 131.0, 606.0, 41.0, 48.0 ],
+					"patching_rect" : [ 175.0, 607.0, 41.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 75.294120371341705, 1.176470637321472, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -3604,7 +3631,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 242.0, 231.0, 584.0, 36.0 ],
-									"text" : "jit.gl.model ---BouncyDrumpads @file Pad-Fillet.obj @lighting_enable 1 @shadow_caster 1 @scale 5.5 4. 5.5 @position 0. -7.26 0. @smooth_shading 1 @auto_material 0 @material_mode 0 @fog 1"
+									"text" : "jit.gl.model ---_BouncyDrumpads @file Pad-Fillet.obj @lighting_enable 1 @shadow_caster 1 @scale 5.5 4. 5.5 @position 0. -7.26 0. @smooth_shading 1 @auto_material 0 @material_mode 0 @fog 1"
 								}
 
 							}
@@ -3616,7 +3643,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 236.0, 657.0, 402.0, 22.0 ],
-									"text" : "jit.gl.model ---BouncyDrumpads @file Pad-Fillet.obj @position 0. 0.4 0."
+									"text" : "jit.gl.model ---_BouncyDrumpads @file Pad-Fillet.obj @position 0. 0.4 0."
 								}
 
 							}
@@ -4191,7 +4218,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 423.0, 341.0, 558.0, 50.0 ],
-									"text" : "jit.gl.material ---BouncyDrumpads @specular_model ward @gl_color 0. 0. 0. 1. @mat_ambient 0.827451 0.827451 0.827451 1. @shininess 55. @override 1 @mat_diffuse 1. 1. 1. 1. @diffuse_model lambert @mat_specular 1. 1. 1. 1. @fog none"
+									"text" : "jit.gl.material ---_BouncyDrumpads @specular_model ward @gl_color 0. 0. 0. 1. @mat_ambient 0.827451 0.827451 0.827451 1. @shininess 55. @override 1 @mat_diffuse 1. 1. 1. 1. @diffuse_model lambert @mat_specular 1. 1. 1. 1. @fog none"
 								}
 
 							}
@@ -4217,7 +4244,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 130.0, 1043.0, 522.0, 36.0 ],
-									"text" : "jit.gl.gridshape ---BouncyDrumpads @lighting_enable 1 @shape sphere @smooth_shading 1 @automatic 0 @shadow_caster 1"
+									"text" : "jit.gl.gridshape ---_BouncyDrumpads @lighting_enable 1 @shape sphere @smooth_shading 1 @automatic 0 @shadow_caster 1"
 								}
 
 							}
@@ -4230,7 +4257,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 130.0, 993.0, 308.0, 36.0 ],
-									"text" : "jit.gl.multiple ---BouncyDrumpads 3 @glparams position color scale"
+									"text" : "jit.gl.multiple ---_BouncyDrumpads 3 @glparams position color scale"
 								}
 
 							}
@@ -4797,7 +4824,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 236.0, 610.0, 332.0, 36.0 ],
-									"text" : "jit.gl.multiple ---BouncyDrumpads 2 @glparams position color"
+									"text" : "jit.gl.multiple ---_BouncyDrumpads 2 @glparams position color"
 								}
 
 							}
@@ -5149,7 +5176,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 242.0, 180.0, 592.0, 36.0 ],
-									"text" : "jit.gl.material ---BouncyDrumpads @mat_specular 0.5 0.5 0.5 1. @gl_color 0. 0. 0. 1. @mat_ambient 0. 0. 0. 1. @shininess 21 @override 1 @mat_diffuse 0. 0. 0. 1. @specular_model ward @fog none"
+									"text" : "jit.gl.material ---_BouncyDrumpads @mat_specular 0.5 0.5 0.5 1. @gl_color 0. 0. 0. 1. @mat_ambient 0. 0. 0. 1. @shininess 21 @override 1 @mat_diffuse 0. 0. 0. 1. @specular_model ward @fog none"
 								}
 
 							}
@@ -5186,7 +5213,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 438.0, 771.0, 616.0, 64.0 ],
-									"text" : "jit.gl.material ---BouncyDrumpads @mat_specular 1. 1. 1. 1. @gl_color 0.861646 0.166537 0. 1. @mat_ambient 0. 0. 0. 0.968627 @shininess 15. @override 1 @mat_diffuse 0. 0. 0. 1. @specular_model ward @darkness 1. @specular_smooth 0.11 @diffuse_smooth 0.127 @roughness 0.99 @specular_size 0.193 @diffuse_size 0.705 @fog none"
+									"text" : "jit.gl.material ---_BouncyDrumpads @mat_specular 1. 1. 1. 1. @gl_color 0.861646 0.166537 0. 1. @mat_ambient 0. 0. 0. 0.968627 @shininess 15. @override 1 @mat_diffuse 0. 0. 0. 1. @specular_model ward @darkness 1. @specular_smooth 0.11 @diffuse_smooth 0.127 @roughness 0.99 @specular_size 0.193 @diffuse_size 0.705 @fog none"
 								}
 
 							}
@@ -5609,8 +5636,8 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 1.0, 0.490196, 0.262745, 1.0 ],
-					"activebgoncolor" : [ 1.0, 0.34902, 0.372549, 1.0 ],
+					"activebgcolor" : [ 1.0, 0.490196078431373, 0.262745098039216, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.349019607843137, 0.372549019607843, 1.0 ],
 					"annotation" : "",
 					"bgoncolor" : [ 0.945098039215686, 0.945098039215686, 0.945098039215686, 1.0 ],
 					"hint" : "Reset / Restart Simulation",
@@ -5903,7 +5930,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+					"bgcolor" : [ 0.874509803921569, 0.874509803921569, 0.874509803921569, 1.0 ],
 					"id" : "obj-56",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -5926,7 +5953,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+					"bgcolor" : [ 0.874509803921569, 0.874509803921569, 0.874509803921569, 1.0 ],
 					"id" : "obj-60",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -6022,7 +6049,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-156", 1 ],
-					"midpoints" : [ 761.315785050392151, 172.823501527309418, 728.894734978675842, 172.823501527309418 ],
 					"source" : [ "obj-157", 0 ]
 				}
 
@@ -6068,6 +6094,13 @@
 					"destination" : [ "obj-24", 0 ],
 					"midpoints" : [ 316.947367131710052, 117.059215843677521, 285.947367131710052, 117.059215843677521 ],
 					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-64", 0 ],
+					"source" : [ "obj-25", 1 ]
 				}
 
 			}
@@ -6212,6 +6245,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"midpoints" : [ 24.947367131710052, 675.0, 92.5, 675.0 ],
+					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-67", 0 ],
 					"source" : [ "obj-66", 1 ]
 				}
@@ -6284,6 +6325,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
+					"midpoints" : [ 128.5, 675.0, 92.5, 675.0 ],
 					"source" : [ "obj-86", 0 ]
 				}
 
