@@ -24,7 +24,7 @@ Known issues:
 
 # Download M4L device
 
-[Bouncy-Drumpads](https://github.com/th-m-vogel/Max-Patches/raw/main/M4L-Devices/Modular-Spout-Sender/Modular-Spout-Sender.amxd "Download")
+[Modular-Spout-Sender](https://github.com/th-m-vogel/Max-Patches/raw/main/M4L-Devices/Modular-Spout-Sender/Modular-Spout-Sender.amxd "Download")
 
 # ACTUAL STATE
 
