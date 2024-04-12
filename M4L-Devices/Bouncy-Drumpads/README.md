@@ -25,8 +25,17 @@ For the external window, obviously you can resize it. And you have buttons in th
 Full HD at 60 Hz may have noticeable effects on the UI interactions with you Ableton Live! This is a know issue with M4L using 3D graphics.
 
 ### What is this “External VCR” thing?
-In parallel I work on an AV recording plugin you can place in your master track to record graphics from visualization plugins. This will come soon (I hope so). Stay tuned, prototype is already somewhat working.
+In parallel I work on an AV recording plugin you can place in your master track to record graphics from visualization plugins. I make it now available as a BETA!!
+- it works
+- the UI is rougth ...
+- The in device preview will disapear when changing to another track and back however it will still work ... in most cases
+- it is available in two flavors
 
+Modular-Spout-Sender - ../Modular-Spout-Sender/
+
+Modular-AV-Recorder - ../Modular-AV-Recorder/
+
+# Showcase
 
 https://youtu.be/XBGGrbZab48
 
