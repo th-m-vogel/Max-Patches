@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 619.0, 324.0, 1500.0, 889.0 ],
-		"openrect" : [ 0.0, 0.0, 0.0, 169.5 ],
+		"rect" : [ 668.0, 94.0, 1273.0, 538.0 ],
+		"openrect" : [ 0.0, 0.0, 0.0, 167.5 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -1105,7 +1105,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 216.0, 100.0, 20.0 ],
+									"patching_rect" : [ 50.0, 274.0, 100.0, 20.0 ],
 									"text" : "s ---World_Stream"
 								}
 
@@ -1284,7 +1284,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 604.0, 107.0, 258.0, 25.0 ],
+					"patching_rect" : [ 603.815785050392151, 83.02631688117981, 258.0, 25.0 ],
 					"text" : "External Recording Integration",
 					"textjustification" : 1
 				}
@@ -1419,7 +1419,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 61.0, 516.0, 182.0, 22.0 ],
-									"text" : "sendbody 1 2 impulse 0. 5.75 0."
+									"text" : "sendbody 2 3 impulse 0. 7. 0."
 								}
 
 							}
@@ -3114,7 +3114,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 751.815785050392151, 143.0, 93.0, 20.0 ],
+					"patching_rect" : [ 751.815785050392151, 114.0, 93.0, 20.0 ],
 					"text" : "r ---World_Stream"
 				}
 
@@ -5636,8 +5636,8 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 1.0, 0.490196078431373, 0.262745098039216, 1.0 ],
-					"activebgoncolor" : [ 1.0, 0.349019607843137, 0.372549019607843, 1.0 ],
+					"activebgcolor" : [ 1.0, 0.490196, 0.262745, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.34902, 0.372549, 1.0 ],
 					"annotation" : "",
 					"bgoncolor" : [ 0.945098039215686, 0.945098039215686, 0.945098039215686, 1.0 ],
 					"hint" : "Reset / Restart Simulation",
@@ -5930,7 +5930,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.874509803921569, 0.874509803921569, 0.874509803921569, 1.0 ],
+					"bgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
 					"id" : "obj-56",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -5953,7 +5953,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.874509803921569, 0.874509803921569, 0.874509803921569, 1.0 ],
+					"bgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
 					"id" : "obj-60",
 					"maxclass" : "panel",
 					"mode" : 0,
