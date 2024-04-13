@@ -2,6 +2,8 @@
 
 This is a collection of several, may be usefull, MAX patches and Max for Life (M4L) devices i created.
 
+You will also find my as Sevetamryn on Maxforlife.com - https://maxforlive.com/profile/user/Sevetamryn
+
 # Why did i start this
 
 Well, i upgraded to Ableton Suite and there is Max for Live ... I poked around, searched content and Discovered a lot of interesting things. However, there is one ressource that needs a spewcial mewntion:
